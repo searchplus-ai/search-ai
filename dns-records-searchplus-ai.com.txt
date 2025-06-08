@@ -1,0 +1,4 @@
+; DNS Records for searchplus-ai.com
+; Add these records to your DNS provider's configuration
+@    IN    A    216.198.79.193
+_vercel    IN    TXT    vc-domain-verify=www.searchplus-ai.com,cb8dc0238020fd41e17a
