@@ -1,14 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'  // تأكد أن هذا الملف موجود أو أنشئه كما فعلنا سابقًا
 
-function App() {
-  return (
-    <div>
-      <h1>SearchPlus AI</h1>
-      <p>مرحبًا بك في أول نموذج مبدئي!</p>
-    </div>
-  );
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
